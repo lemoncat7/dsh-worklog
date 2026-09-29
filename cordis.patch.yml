@@ -1,0 +1,5 @@
+- insert:
+    - id: worklog
+      name: '@lemoncat7/dsh-worklog'
+      config:
+        databasePath: !!js dshHomePath('worklog/worklog.sqlite')
